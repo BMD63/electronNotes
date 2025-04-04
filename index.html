@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Заметки</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Мои заметки</h1>
+  <input type="text" id="noteTitle" placeholder="Название заметки">
+  <br>
+  <textarea id="noteInput" rows="10" cols="50" placeholder="Введите заметку..."></textarea>
+  <br>
+  <button onclick="saveNote()">Сохранить</button>
+  <button onclick="clearFields()">Очистить</button>
+  <div id="status"></div>
+  <h3>Сохранённые заметки</h3>
+  <ul id="notesList"></ul>
+  <script src="renderer.js"></script>
+</body>
+</html>
