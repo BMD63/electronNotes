@@ -6,6 +6,18 @@
     "start": "electron ."
   },
   "devDependencies": {
-    "electron": "^latest"
-  }
+    "electron": "^35.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMD63/electronNotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BMD63/electronNotes/issues"
+  },
+  "homepage": "https://github.com/BMD63/electronNotes#readme",
+  "description": ""
 }
